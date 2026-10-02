@@ -1,0 +1,40 @@
+.navbar{
+    margin: 0;
+    width: 100vw;
+    background: rgb(221, 218, 218);
+}
+ .nav-title{
+    font-size: 2rem;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    align-items: center;
+    height: 100vh;
+}
+.box_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    background-color: rgb(252, 249, 249);
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.input_container{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
